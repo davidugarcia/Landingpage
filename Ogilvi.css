@@ -4,9 +4,9 @@
 }
 
 
-/*Nav*/
+/**Nav*/
 
-.color-elie {
+.colornav a {
     color: white !important;
     margin-bottom: 60px;
 }
@@ -22,6 +22,16 @@
     text-shadow: 5px 44px 11px rgb(250, 150, 168);
 }
 
+.sub-title {
+    color: #fff !important;
+    font-size: 27px;
+}
+
+.title {
+    font-family: 'Dancing Script', cursive;
+    font-size: 320px;
+}
+
 
 /*Home*/
 
@@ -33,17 +43,39 @@
     background-size: cover;
 }
 
-
-/*Home Lapiz1 y Letra*/
-
-.edu {
-    padding-top: 8rem!important;
+:root {
+    --color1: black;
+    --color2: #ea5354;
+    --color3: #1f308a;
 }
 
 
-/*#region Home Lapiz2 y letra*/
+/*Home (Lapiz1 y Letra)*/
 
-.padding-abajo {
+.espacio {
+    padding-top: 8rem!important;
+}
+
+.textcolor2 {
+    color: var(--color2);
+}
+
+.textcolor3 {
+    color: var(--color3);
+}
+
+.posicioabs1 {
+    position: absolute;
+    /* height: 50px;
+  width: 50px;*/
+    bottom: -120px;
+    right: -120px
+}
+
+
+/*Home (Lapiz2 y letra)*/
+
+.paddingbottom {
     padding-bottom: 30px;
 }
 
@@ -51,8 +83,17 @@
     color: white!important;
 }
 
+.posicioabs2 {
+    position: absolute;
+    /* height: 50px;
+  width: 50px;*/
+    bottom: 85px;
+    right: 1100px
+}
 
-/*#endregion*/
+.anchodiv {
+    width: 900px;
+}
 
 
 /*Portafolio*/
@@ -70,12 +111,30 @@ div.gallery:hover {
     border: 1px solid #777;
 }
 
-.ver-eli {
+.letrap {
+    padding-left: 94px;
+}
+
+.lapiz3 {
+    position: absolute;
+    height: 500px;
+    width: 190px;
+    top: 0px;
+    right: -132px;
+}
+
+.widthgallery {
+    width: 365px;
+    height: 350px;
+    justify-content: space-between;
+}
+
+.linkver {
     padding: 40px;
 }
 
 
-/*Informacion*/
+/*Footer*/
 
 .colorblack {
     background: black;
@@ -85,109 +144,16 @@ section {
     padding: 40px;
 }
 
-
-/*Footer*/
-
-.padding-elie {
+.paddingfooter {
     padding-top: 25px;
     padding-bottom: 20px;
 }
 
-.font-eli {
+.nav a {
+    color: white !important;
+}
+
+;
+.fontletra {
     font-size: 35px;
 }
-
-
-/* Large Devices, Wide Screens */
-
-@media only screen and (min-width: 1200px) {
-    /*Header*/
-    .sub-title {
-        color: #fff !important;
-        font-size: 27px;
-    }
-    .title {
-        font-family: 'Dancing Script', cursive;
-        font-size: 320px;
-    }
-    /*Home Lapiz1 y Letra*/
-    .eliexer {
-        position: absolute;
-        /* height: 50px;
-      width: 50px;*/
-        bottom: -120px;
-        right: -120px
-    }
-    /*Home Lapiz2 y letra*/
-    .elie1 {
-        width: 850px;
-    }
-    /*Portafolio*/
-    .letrap {
-        padding-left: 94px;
-    }
-    .lapiz3 {
-        position: absolute;
-        height: 500px;
-        width: 190px;
-        top: 0px;
-        right: -132px;
-    }
-    .widthgallery {
-        width: 400px;
-        height: 350px;
-        justify-content: space-between;
-    }
-}
-
-@media (max-width: 768px) {
-    /*Header*/
-    .sub-title {
-        color: #fff !important;
-        font-size: 140%;
-    }
-    .title {
-        font-family: 'Dancing Script', cursive;
-        font-size: 255px;
-    }
-    /*Home Lapiz1 y Letra*/
-    .eliexer {
-        position: absolute;
-        /* height: 50px;
-      width: 50px;*/
-        bottom: -140px;
-        right: -40px
-    }
-    /*Home Lapiz2 y letra*/
-    .elie1 {
-        width: 850px;
-    }
-    .edug {
-        padding-top: 0rem !important;
-        padding-right: 0rem!important;
-    }
-    /*Portafolio*/
-    .letrap {
-        padding-left: 47px;
-    }
-    .lapiz3 {
-        position: absolute;
-        height: 500px;
-        width: 177px;
-        top: 0px;
-        right: -126px;
-    }
-    .widthgallery {
-        width: 255px;
-        height: 220px;
-    }
-    .flex-elie {
-        justify-content: space-between;
-    }
-}
-
-
-/*
-@media (min-width: 1024px) {
- 
-}*/
