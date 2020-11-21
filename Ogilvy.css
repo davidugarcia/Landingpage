@@ -157,3 +157,48 @@ section {
 .fontletra {
     font-size: 35px;
 }
+
+
+/* phones */
+
+@media (max-width: 411px) {
+    .colornav ul {
+        display: flex;
+        justify-content: space-between!important;
+    }
+    .nav {
+        flex-wrap: nowrap!important;
+    }
+    .sub-title {
+        color: #fff !important;
+        font-size: 20px;
+    }
+    .title {
+        font-family: 'Dancing Script', cursive;
+        font-size: 150px;
+    }
+    .posicioabs1 {
+        position: absolute;
+        /* height: 50px;
+      width: 50px;*/
+        bottom: -120px;
+        right: -120px;
+        display: none;
+    }
+    .posicioabs2 {
+        position: absolute;
+        /* height: 50px;
+      width: 50px;*/
+        bottom: 85px;
+        right: 1100px;
+        display: none;
+    }
+    .lapiz3 {
+        position: absolute;
+        height: 500px;
+        width: 190px;
+        top: 0px;
+        right: -132px;
+        display: none;
+    }
+}
