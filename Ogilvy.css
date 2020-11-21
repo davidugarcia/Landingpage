@@ -161,13 +161,16 @@ section {
 
 /* phones */
 
-@media (max-width: 411px) {
+@media (max-width: 360px) {
     .colornav ul {
         display: flex;
         justify-content: space-between!important;
     }
     .nav {
         flex-wrap: nowrap!important;
+    }
+    .nav-link {
+        padding: .4rem .4rem!important;
     }
     .sub-title {
         color: #fff !important;
