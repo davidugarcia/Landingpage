@@ -9,6 +9,7 @@
 .colornav a {
     color: white !important;
     margin-bottom: 60px;
+    margin-top: 10px;
 }
 
 
@@ -162,6 +163,7 @@ section {
 /* phones */
 
 @media (max-width: 360px) {
+    /*nav*/
     .colornav ul {
         display: flex;
         justify-content: space-between!important;
@@ -172,14 +174,39 @@ section {
     .nav-link {
         padding: .4rem .4rem!important;
     }
+    /*titulo*/
     .sub-title {
         color: #fff !important;
         font-size: 20px;
     }
     .title {
         font-family: 'Dancing Script', cursive;
-        font-size: 150px;
+        font-size: 140px;
     }
+    /*iconos*/
+    .img img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 60px;
+        height: 60px;
+    }
+    /*epsacio de img*/
+    .espacio {
+        padding-top: 1rem!important;
+    }
+    /*galeria*/
+    .letrap {
+        text-align: center;
+        padding-top: 10px;
+        padding-left: 0px;
+    }
+    .widthgallery {
+        width: 335px;
+        height: 290px;
+        justify-content: space-between;
+    }
+    /*imagenes absolutas*/
     .posicioabs1 {
         position: absolute;
         /* height: 50px;
