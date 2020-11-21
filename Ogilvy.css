@@ -209,11 +209,10 @@ section {
     /*imagenes absolutas*/
     .posicioabs1 {
         position: absolute;
-        /* height: 50px;
-      width: 50px;*/
-        bottom: -120px;
-        right: -120px;
-        display: none;
+        height: 90px;
+        width: 90px;
+        bottom: -40px;
+        right: 0px;
     }
     .posicioabs2 {
         position: absolute;
@@ -230,5 +229,10 @@ section {
         top: 0px;
         right: -132px;
         display: none;
+    }
+    .flexelie {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
 }
