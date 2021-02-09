@@ -235,10 +235,13 @@ section {
         right: -132px;
         display: none;
     }
-    .ocultar {
-        display: none;
+    iframe {
+        width: 330px;
     }
-    .flexelie {
-        flex-direction: column;
+    .centeritem {
+        display: flex;
+        flex-wrap: wrap!important;
+        justify-content: center!important;
+        align-items: center !important;
     }
 }
