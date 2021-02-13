@@ -1,12 +1,12 @@
-@import url('https://fonts.googleapis.com/css?family=Dancing+Script');
-.fondo-red {
-    background: rgb(234, 83, 84)!important;
-}
-
 :root {
     --color1: black;
     --color2: #ea5354;
     --color3: #1f308a;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script');
+.fondo-red {
+    background: rgb(234, 83, 84)!important;
 }
 
 
@@ -21,16 +21,16 @@
 
 /*Header*/
 
-.posicioabs {
-    position: absolute;
-    top: 15px;
-    left: 150px;
-}
-
 .sub-title {
     color: #fff !important;
     font-size: 27px;
     text-shadow: 29px 24px 0px rgb(255, 195, 179);
+}
+
+.posicioabs {
+    position: absolute;
+    top: 15px;
+    left: 150px;
 }
 
 .title {
@@ -61,10 +61,6 @@
     color: var(--color2);
 }
 
-.textcolor3 {
-    color: var(--color3);
-}
-
 .posicioabs1 {
     position: absolute;
     bottom: -120px;
@@ -74,14 +70,14 @@
 
 /*Home (Lapiz2 y letra)*/
 
-.colorwhite {
-    color: white!important;
-}
-
 .posicioabs2 {
     position: absolute;
     top: 0px;
     right: 995px;
+}
+
+.textcolor3 {
+    color: var(--color3);
 }
 
 .img {
@@ -91,8 +87,21 @@
 
 /*Portafolio*/
 
-.shadow-eli {
+.shadoweli {
     box-shadow: 0px 8px 110px rgb(234, 83, 84)
+}
+
+.letrap {
+    padding-left: 44px;
+    margin-top: 8px;
+}
+
+.lapiz3 {
+    position: absolute;
+    height: 450px;
+    width: 168px;
+    top: 18px;
+    right: -112px;
 }
 
 div.gallery {
@@ -102,24 +111,6 @@ div.gallery {
 
 div.gallery:hover {
     border: 1px solid #777;
-}
-
-.letrap {
-    padding-left: 44px;
-    margin-top: 8px;
-}
-
-.espacioletra {
-    margin-left: 50px;
-    margin-right: 50px;
-}
-
-.lapiz3 {
-    position: absolute;
-    height: 450px;
-    width: 168px;
-    top: 18px;
-    right: -112px;
 }
 
 .widthgallery {
@@ -141,6 +132,15 @@ div.gallery:hover {
 
 section {
     padding: 25px;
+}
+
+.espacioletra {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.colorwhite {
+    color: white!important;
 }
 
 .paddingfooter {
