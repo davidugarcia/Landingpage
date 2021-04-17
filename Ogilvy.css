@@ -177,6 +177,10 @@ section {
     .nav-link {
         padding: .4rem .4rem!important;
     }
+    .nav a {
+        color: white !important;
+        font-size: 14px;
+    }
     /*titulo*/
     .sub-title {
         color: #fff !important;
@@ -243,12 +247,17 @@ section {
     }
     iframe {
         width: 330px;
-        height: 500px;
+        height: 470px;
     }
     .centeritem {
         display: flex;
         flex-wrap: wrap!important;
         justify-content: center!important;
         align-items: center !important;
+    }
+    .colorwhite h1 {
+        color: white!important;
+        margin: 12px;
+        padding-top: 15px;
     }
 }
