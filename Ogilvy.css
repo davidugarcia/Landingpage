@@ -4,7 +4,6 @@
     --color3: #1f308a;
 }
 
-@import url('https://fonts.googleapis.com/css?family=Dancing+Script');
 .fondo-red {
     background: rgb(234, 83, 84)!important;
 }
@@ -29,12 +28,17 @@
 
 .posicioabs {
     position: absolute;
-    top: 15px;
-    left: 150px;
+    top: 50px;
+    left: 190px;
+}
+
+@font-face {
+    font-family: "titulo";
+    src: url(./imagenes/Sensations\ and\ Qualities.ttf);
 }
 
 .title {
-    font-family: 'Dancing Script', cursive;
+    font-family: "titulo";
     font-size: 320px;
     text-shadow: 5px 44px 11px rgb(250, 150, 168);
 }
@@ -175,10 +179,11 @@ section {
     /*titulo*/
     .sub-title {
         color: #fff !important;
-        font-size: 20px;
+        font-size: 12px;
+        text-shadow: 2px 2px 4px #000000;
     }
     .title {
-        font-family: 'Dancing Script', cursive;
+        font-family: "titulo";
         font-size: 120px;
         padding-top: 18px;
     }
@@ -211,8 +216,8 @@ section {
     /*imagenes absolutas*/
     .posicioabs {
         position: absolute;
-        top: 0px;
-        left: 0px;
+        top: 48px;
+        left: 34px;
     }
     .posicioabs1 {
         position: absolute;
