@@ -4,6 +4,10 @@
     --color3: #1f308a;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .fondo-red {
     background: rgb(234, 83, 84)!important;
 }
