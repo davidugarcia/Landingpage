@@ -62,17 +62,27 @@ html {
 /*Home (Lapiz1 y Letra)*/
 
 .espacio {
-    padding-top: 8rem!important;
+    padding-top: 7rem!important;
+    margin-left: 130px;
 }
-
+.espacio .pl-4, .px-4 {
+    padding-left: 5rem!important;
+}
 .textcolor2 {
     color: var(--color2);
 }
+.textcolor2 h1{
+    font-size: 90px;
+}
 
+.tamaño{
+    width: 600px;
+    height: 550px;
+}
 .posicioabs1 {
     position: absolute;
-    bottom: -120px;
-    right: -120px
+    bottom: -130px;
+    right: -15px
 }
 
 
