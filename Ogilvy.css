@@ -59,7 +59,7 @@ html {
 }
 
 
-/*Home (Lapiz1 y Letra)*/
+/*Home (Imagen y lapiz1)*/
 
 .espacio {
     padding-top: 7rem!important;
@@ -75,7 +75,7 @@ html {
     font-size: 90px;
 }
 
-.tamaño{
+.tamañoimg {
     width: 600px;
     height: 550px;
 }
@@ -86,16 +86,25 @@ html {
 }
 
 
-/*Home (Lapiz2 y letra)*/
+/*Home (Letra y Lapiz2)*/
 
 .posicioabs2 {
     position: absolute;
     top: 0px;
-    right: 995px;
+    right: 1085px;
 }
 
+.tamañoletras h2{
+    font-size: 65px;
+}
 .textcolor3 {
     color: var(--color3);
+}
+
+
+.lapiz2 {
+    width: 360px;
+    height: 460px;
 }
 
 .img {
