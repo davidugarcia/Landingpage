@@ -156,7 +156,7 @@ html {
 }
 
 .letrap {
-    padding-left: 44px;
+    padding-left: 12px;
     margin-top: 8px;
 }
 
@@ -165,7 +165,7 @@ html {
     height: 450px;
     width: 168px;
     top: 18px;
-    right: -112px;
+    right: -285px;
 }
 
 div.gallery {
@@ -178,8 +178,8 @@ div.gallery:hover {
 }
 
 .widthgallery {
-    width: 365px;
-    height: 350px;
+    width: 320px;
+    height: 280px;
     justify-content: space-between;
 }
 
