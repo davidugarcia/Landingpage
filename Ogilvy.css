@@ -72,7 +72,7 @@ html {
     color: var(--color2);
 }
 .textcolor2 h1{
-    font-size: 55px;
+    font-size: 75px;
     font-weight: bold;
 }
 
@@ -165,7 +165,7 @@ html {
     height: 450px;
     width: 168px;
     top: 18px;
-    right: -285px;
+    right: -284px;
 }
 
 div.gallery {
