@@ -124,7 +124,6 @@ html {
     flex-direction: column;
 }
 
-
 .img img{
     width: 125px;
     height: 120px;
@@ -222,10 +221,12 @@ section {
 }
 
 
-/* phones */
+/** phones */
 
 @media (max-width: 360px) {
-    /*nav*/
+
+    /** nav */
+
     .nav {
         flex-wrap: nowrap!important;
     }
@@ -241,7 +242,9 @@ section {
         color: white !important;
         font-size: 14px;
     }
-    /*titulo*/
+
+    /** titulo */
+
     .sub-title {
         color: #fff !important;
         font-size: 12px;
@@ -252,10 +255,50 @@ section {
         font-size: 120px;
         padding-top: 18px;
     }
-    /*iconos*/
+
+    /** Imagen */
+
+    .espacio {
+        padding-top: 0rem!important;
+        margin-left: 0px;
+    } 
+
+    .tamañoimg {
+        width: 270px;
+        height: 290px;
+    }
+
+    .textcolor2 h1{
+        font-size: 35px;
+    }
+
+    .lapiz1 {
+        width: 100px;
+        height: 140px;
+    }
+
+    /** Lapiz2 */
+
+    .lapiz2 {
+        width: 100px;
+        height: 140px;
+    }
+
+    .flexphone{
+        display: flex;
+        flex-direction: column!important;
+        align-items: center;
+    }
+
+    .tamañoletras h2{
+        font-size: 20px;
+    }
+
+    /** iconos */
     .img {
         margin: 15px;
     }
+
     .img img {
         display: block;
         margin-left: auto;
@@ -263,11 +306,9 @@ section {
         width: 60px;
         height: 60px;
     }
-    /*epsacio de img*/
-    .espacio {
-        padding-top: 0rem!important;
-    }
-    /*galeria*/
+
+    /** galeria */
+
     .letrap {
         text-align: center;
         padding-top: 10px;
@@ -278,7 +319,9 @@ section {
         height: 290px;
         justify-content: space-between;
     }
-    /*imagenes absolutas*/
+    
+    /** imagenes absolutas */
+
     .posicioabs {
         position: absolute;
         top: 48px;
@@ -286,38 +329,38 @@ section {
     }
     .posicioabs1 {
         position: absolute;
-        height: 90px;
-        width: 90px;
         bottom: -58px;
         right: 0px;
     }
     .posicioabs2 {
         position: absolute;
-        width: 75px;
         top: 8px;
         left: 0px;
     }
+
     .lapiz3 {
         position: absolute;
-        height: 500px;
-        width: 190px;
         top: 0px;
         right: -132px;
         display: none;
     }
+
     iframe {
         width: 330px;
-        height: 470px;
+        height: 450px;
     }
+
     .centeritem {
         display: flex;
         flex-wrap: wrap!important;
         justify-content: center!important;
         align-items: center !important;
     }
+
     .colorwhite h1 {
         color: white!important;
         margin: 12px;
         padding-top: 15px;
     }
+
 }
