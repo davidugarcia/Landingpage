@@ -12,7 +12,6 @@ html {
     background: rgb(234, 83, 84)!important;
 }
 
-
 /**Nav*/
 
 .colornav a {
@@ -58,24 +57,24 @@ html {
     background-size: cover;
 }
 
-
-/*Home (Imagen y lapiz1)*/
+/** Home Imagen y lapiz1 */
 
 .espacio {
     padding-top: 7rem!important;
-    margin-left: 130px;
 }
-.espacio .pl-4, .px-4 {
+.espacio .pl-4 {
     padding-left: 5rem!important;
 }
 .textcolor2 {
     color: var(--color2);
+    font-weight: bold;
 }
 .textcolor2 h1{
     font-size: 75px;
-    font-weight: bold;
 }
-
+.margen_img{
+    padding-left: 10em;
+}
 .tamañoimg {
     width: 600px;
     height: 550px;
@@ -83,9 +82,8 @@ html {
 .posicioabs1 {
     position: absolute;
     bottom: -130px;
-    right: -15px
+    right: 0px
 }
-
 
 /*Home (Letra y Lapiz2)*/
 
@@ -97,12 +95,11 @@ html {
 
 .tamañoletras h2{
     font-size: 48px;
-    font-weight: bold;
 }
 .textcolor3 {
     color: var(--color3);
+    font-weight: bold;
 }
-
 
 .lapiz2 {
     width: 360px;
@@ -156,7 +153,7 @@ html {
 
 .letrap {
     padding-left: 12px;
-    margin-top: 8px;
+    margin-top: 20px;
 }
 
 .lapiz3 {
@@ -218,6 +215,7 @@ section {
 ;
 .fontletra {
     font-size: 35px;
+    font-weight: bold;
 }
 
 
@@ -262,26 +260,40 @@ section {
         padding-top: 0rem!important;
         margin-left: 0px;
     } 
+    .margen_img{
+        padding-left: 0em;
+    }
+
+    .text_img{
+        display: flex;
+        flex-direction: column!important;
+        align-items: center;
+    }
 
     .tamañoimg {
-        width: 270px;
-        height: 290px;
+        width: 330px;
+        height: 335px;
     }
 
     .textcolor2 h1{
         font-size: 35px;
     }
 
+    .espacio .pl-4{
+        padding-left: 0rem!important;
+        text-align: center;
+    }
+
     .lapiz1 {
-        width: 100px;
-        height: 140px;
+        width: 75px;
+        height: 100px;
     }
 
     /** Lapiz2 */
 
     .lapiz2 {
-        width: 100px;
-        height: 140px;
+        width: 90px;
+        height: 115px;
     }
 
     .flexphone{
@@ -291,20 +303,31 @@ section {
     }
 
     .tamañoletras h2{
-        font-size: 20px;
+        font-size: 25px;
+        font-weight: bold;
     }
 
     /** iconos */
+
+    .flexphone_icono{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
     .img {
         margin: 15px;
     }
 
     .img img {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 60px;
-        height: 60px;
+        width: 100px;
+        height: 105px;
+    }
+
+    .img h4 {
+        font-size: 60px;
+    }
+    .img h5 {
+        font-size: 20px;
     }
 
     /** galeria */
@@ -314,6 +337,7 @@ section {
         padding-top: 10px;
         padding-left: 0px;
     }
+
     .widthgallery {
         width: 335px;
         height: 290px;
@@ -329,24 +353,21 @@ section {
     }
     .posicioabs1 {
         position: absolute;
-        bottom: -58px;
+        bottom: -75px;
         right: 0px;
     }
     .posicioabs2 {
         position: absolute;
-        top: 8px;
+        top: 47px;
         left: 0px;
     }
 
     .lapiz3 {
-        position: absolute;
-        top: 0px;
-        right: -132px;
         display: none;
     }
 
     iframe {
-        width: 330px;
+        width: 360px;
         height: 450px;
     }
 
@@ -355,6 +376,14 @@ section {
         flex-wrap: wrap!important;
         justify-content: center!important;
         align-items: center !important;
+    }
+
+    .centeritem .ml-5 {
+        margin-left: 0rem!important;
+    }
+
+    .centeritem .mr-5{
+        margin-right: 0rem!important;
     }
 
     .colorwhite h1 {
